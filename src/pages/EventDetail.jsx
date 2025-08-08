@@ -29,7 +29,6 @@ const EventDetail = () => {
 
   const totalPrice = event.price * form.quantity;
 
-  // ✅ Handle input perubahan
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm((prev) => ({
@@ -38,7 +37,6 @@ const EventDetail = () => {
     }));
   };
 
-  // ✅ Tangani submit form dengan preventDefault
   const handleAddCart = (e) => {
     e.preventDefault();
 
