@@ -1,0 +1,103 @@
+const events = [
+  {
+    id: 1,
+    title: "Konser Dewa 19",
+    location: "Stadion Utama GBK, Jakarta",
+    date: "Sabtu, 15 September 2025",
+    price: 250000,
+    category: "Musik",
+    image:
+      "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: `Konser reuni Dewa 19 bersama Ari Lasso dan Once Mekel. Menampilkan lagu-lagu hits dari semua era. 
+Acara dimulai pukul 18.00 WIB. Open gate 16.00 WIB. Penonton diharapkan datang lebih awal.`,
+    organizer: "PT Musik Indonesia Raya",
+    quota: 1200,
+    deadline: "13 September 2025",
+  },
+  {
+    id: 2,
+    title: "Java Jazz Festival 2025",
+    location: "JIEXPO Kemayoran, Jakarta",
+    date: "Jumat - Minggu, 21-23 Maret 2025",
+    price: 350000,
+    category: "Musik",
+    image:
+      "https://images.unsplash.com/photo-1507874457470-272b3c8d8ee2?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: `Festival musik jazz terbesar di Indonesia, menampilkan musisi lokal dan internasional.`,
+    organizer: "Java Festival Production",
+    quota: 5000,
+    deadline: "19 Maret 2025",
+  },
+  {
+    id: 3,
+    title: "Stand-Up Comedy Night",
+    location: "Teater Salihara, Jakarta",
+    date: "Sabtu, 12 Oktober 2025",
+    price: 100000,
+    category: "Komedi",
+    image:
+      "https://images.unsplash.com/photo-1683117855296-979f17e62e87?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: `Tertawalah bersama komika ternama Indonesia dalam satu malam yang penuh canda.`,
+    organizer: "StandUp Indo",
+    quota: 300,
+    deadline: "10 Oktober 2025",
+  },
+  {
+    id: 4,
+    title: "Tech Conference 2025",
+    location: "ICE BSD, Tangerang",
+    date: "Rabu, 5 November 2025",
+    price: 500000,
+    category: "Teknologi",
+    image:
+      "https://images.unsplash.com/photo-1551836022-d5d88e9218df?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: `Konferensi teknologi tahunan dengan pembicara dari perusahaan-perusahaan global.`,
+    organizer: "Tech ID",
+    quota: 1000,
+    deadline: "1 November 2025",
+  },
+  {
+    id: 5,
+    title: "Workshop UI/UX Design",
+    location: "CoHive Coworking, Jakarta",
+    date: "Senin, 14 April 2025",
+    price: 150000,
+    category: "Edukasi",
+    image:
+      "https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: `Pelajari dasar dan praktik terbaik UI/UX dari desainer profesional.`,
+    organizer: "DesignTalks",
+    quota: 80,
+    deadline: "10 April 2025",
+  },
+  {
+    id: 6,
+    title: "Festival Film Indie",
+    location: "CGV FX Sudirman, Jakarta",
+    date: "Kamis - Minggu, 7-10 Agustus 2025",
+    price: 75000,
+    category: "Film",
+    image:
+      "https://images.unsplash.com/photo-1576724196706-3f23f51ea351?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: `Nikmati pemutaran film-film pendek karya sineas muda dari seluruh Indonesia.`,
+    organizer: "Komunitas Film Jakarta",
+    quota: 400,
+    deadline: "5 Agustus 2025",
+  },
+  {
+    id: 7,
+    title: "Color Run Jakarta",
+    location: "Monas, Jakarta Pusat",
+    date: "Minggu, 3 Agustus 2025",
+    price: 100000,
+    category: "Olahraga",
+    image:
+      "https://images.unsplash.com/photo-1686997878869-286da0646cf8?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    description: `Lari santai penuh warna untuk keluarga dan komunitas. Kaos dan medali untuk semua peserta.`,
+    organizer: "Color Run Indonesia",
+    quota: 1500,
+    deadline: "1 Agustus 2025",
+  },
+];
+
+export default events;
